@@ -17,7 +17,7 @@ function Signup()
 
          const res=await axios({
             method:'post',
-            url:["https://backend2-eosin.vercel.app/api/signup"],
+            url:["https://backend2-jlfc.onrender.com/api/signup"],
             withCredentials:true,
             data:{email,password},
             headers:{}
