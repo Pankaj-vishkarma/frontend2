@@ -21,7 +21,8 @@ function Signin()
                 method:'post',
                 url:['https://backend2-eosin.vercel.app/api/signin'],
                 withCredentials:true,
-                data:{name,email,password,confirmpassword}
+                data:{name,email,password,confirmpassword},
+                headers:{}
              })
      
              if(res.data.success)
