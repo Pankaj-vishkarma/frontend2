@@ -19,7 +19,8 @@ function Signup()
             method:'post',
             url:["https://backend2-eosin.vercel.app/api/signup"],
             withCredentials:true,
-            data:{email,password}
+            data:{email,password},
+            headers:{}
     
       })
 
