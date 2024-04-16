@@ -19,7 +19,7 @@ function Signin()
         try{
             const res=await axios({
                 method:'post',
-                url:['https://backend2-eosin.vercel.app/api/signin'],
+                url:['https://backend2-jlfc.onrender.com/api/signin'],
                 withCredentials:true,
                 data:{name,email,password,confirmpassword},
                 headers:{}
